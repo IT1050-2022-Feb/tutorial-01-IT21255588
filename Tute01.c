@@ -5,6 +5,15 @@
 #include <stdio.h>
 
 int main() {
+  int sum, mark1 , mark2;
+  double avg;
+   printf("Enter marks for subject 1:");
+   scanf("%d",&mark1);
+   printf("Enter marks for subject 2:");
+   scanf("%d",&mark2);
+   sum = mark1 + mark2;
+   avg = sum / 2.0;
+   printf("Average = %.2lf\n",avg); 
   
   return 0;
 }
